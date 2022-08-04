@@ -1,2 +1,2 @@
 echo "Building class files"
-javac *.java
+javac PraseTransactions.java
