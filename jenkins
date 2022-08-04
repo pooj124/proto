@@ -7,7 +7,7 @@ pipeline {
                 // git url: 'https://github.com/naiveskill/devops.git', branch: 'main'
                 git url: 'https://github.com/mvadyala/proto.git', branch: 'main'
                 // Change file permisson
-                sh "chmod +x -R ./jenkins"
+                sh "chmod +x -R ./jenkins *.sh"
                 // Run shell script
                 sh "./make.sh"
             }
