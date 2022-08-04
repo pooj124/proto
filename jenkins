@@ -9,7 +9,7 @@ pipeline {
                 // Change file permisson
                 sh "chmod +x -R ./jenkins"
                 // Run shell script
-                sh "./jenkins"
+                sh "./make.sh"
             }
         }
     }
