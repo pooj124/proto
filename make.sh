@@ -1,3 +1,3 @@
 echo "Building class files"
-javac  *.java
+javac  *.java #
 echo ""
