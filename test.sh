@@ -1,3 +1,3 @@
 echo "Testing class files"
-java ParseTransactions txtlog.dat
+java ParseTransactions txnlog.dat
 echo ""
